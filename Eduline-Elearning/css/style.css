@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0%;
+    height: 15vh;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-list li{
+    list-style: none;
+    padding: 40px 24px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{
+    padding: 2px 13px;
+    width: 30%;
+    text-align: right;
+}
+.logo{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    margin-left: -42%;
+
+}
+.logo img{
+    width: 38%;
+    height: 50%;
+    border: solid white;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+#search{
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    margin-top: 14%;
+    text-align: right;
+    justify-content: right;
+    margin-left: 64%;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/new1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: auto;
+    height: 90%;
+}
+.firstsection{
+    height: 100vh;
+
+}
+.firsthalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+
+}
+.secondhalf img {
+    width: 120%;
+    border: solid whitesmoke;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-left: 20%;
+}
+.text-big{
+    font-size: 25px;
+    padding: 16px 0px;
+}
+.text-small{
+    font-size: 15px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 9px 5px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: poi;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-sm{
+    text-align: right;
+    justify-content: right;
+    padding: 6px 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 86%;
+    margin-top: 2%
+}
+.btn-sm:hover{
+    color: white;
+    background-color: black;
+}
+.btn-dark{
+    color: grey;
+    border: 2px solid grey;
+    margin-left: 48%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-dark:hover{
+    color: black;
+    background-color: white;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+
+}
+.para{
+    padding: 0px 65px;
+}
+.thumbnail{
+    width: 500px;
+}
+
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+.sectiontag{
+    padding: 16px 0px;
+}
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    width: 221px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 30px;
+}
+.contact{
+    background-color: rgb(202, 198, 198);
+    height: 80vh;
+}
+.text-center{
+    text-align: center;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.form{
+    max-width: 62%;
+    margin: 7px auto;
+}
+.form input{
+    margin: 15px 0px;
+    padding: 5px 13px;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+.form textarea{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-footer{
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+   
+ 
+

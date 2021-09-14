@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1275px){
+    .nav-list{
+        flex-direction: column;
+        height: 76%;
+    }
+    .navbar{
+        height: 537px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    } 
+    .nav-list li{
+        padding: 24px 14px;
+    }
+    .navbar.logo{
+        height: 450px;
+        flex-direction: column;
+        transition: all 4.5s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 80%;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .btn-sm{
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .burger{
+        display: block;
+   }
+   .h-nav-resp{
+       height: 72px;
+   }
+   .v-class-resp{
+       opacity: 0;
+   }
+   .logo img{
+    justify-content: center;
+    text-align: center;
+    width: 74%;
+    margin-left: 76%;
+    align-items: center;
+    border: 2px solid black;
+   }
+   .section{
+       flex-direction: column-reverse;
+   }
+   .text-small{
+       text-align: center;
+   }
+   .text-big{
+       text-align: center;
+   }
+   .para{
+       padding: 0px;
+   }
+   .thumbnail{
+    display: contents;
+   }
+   .form textarea{
+       display: contents;
+   }
+   .secondhalf img{
+    margin-left: -9%;
+   }
+   .submit{
+    margin: auto;
+   }
+}
+@media only screen and (max-width: 730px){
+.thumbnail img {
+    margin-top: 131px;
+}
+}
+@media only screen and (max-width: 450px){
+    .thumbnail img {
+        margin-top: 270px;
+    }
+    }
